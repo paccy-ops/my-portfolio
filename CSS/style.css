@@ -438,8 +438,8 @@ footer p {
   #about p.lead {
     font-size: 16px;
     font-weight: 500px;
-    font-style: italic;
-    font-family: sans-serif, cursive;
+    font-style: normal;
+    font-family: monospace, Arial, Helvetica, sans-serif;
   }
 
   #about .about-content {
