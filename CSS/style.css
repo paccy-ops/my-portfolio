@@ -355,6 +355,11 @@ footer p {
   .checkbtn {
     display: block;
   }
+  #head {
+    display: flex;
+    margin-left: -25px;
+    font-size: 1.5rem;
+  }
   ul {
     position: fixed;
     width: 60%;
