@@ -354,7 +354,7 @@ footer p {
   ul {
     position: fixed;
     width: 60%;
-    height: 63vh;
+    height: 60vh;
     background: #2c3e50;
     opacity: 0.8;
     font-size: 16px;
@@ -373,9 +373,14 @@ footer p {
     margin: 30px 0;
     font-weight: 800;
   }
+  nav ul li:checked {
+    margin: 30px 0;
+    font-weight: 800;
+  }
   nav ul li a {
     font-size: 20px;
   }
+
   a:hover,
   a.active {
     background: none;
@@ -587,7 +592,7 @@ footer p {
     border-radius: 50%;
     position: absolute;
     top: -7%;
-    left: 28%;
+    left: 25%;
   }
   * footer */ footer {
     padding: 2rem;

@@ -12,12 +12,3 @@ $('#navbar a, .btn').on('click', function (event) {
     );
   }
 });
-
-// function mobileMenu() {
-//   if (document.getElementById('#navbar ul ').style.display == 'block') {
-//     document.getElementById('#navbar ul ').style.display = 'none';
-//   } else {
-//     document.getElementById('#navbar ul ').style.display == 'block';
-//   }
-//   document.getElementById('#navbar ul ').addEventListener('click', mobileMenu);
-// }
