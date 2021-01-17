@@ -199,6 +199,10 @@ body {
   margin-bottom: 1rem;
   margin-left: 25%;
 }
+#services .box a {
+  color: #000;
+  text-decoration: none;
+}
 
 /* section:Testimonials */
 #testimonials {
