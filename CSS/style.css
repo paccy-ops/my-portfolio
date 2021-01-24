@@ -255,43 +255,43 @@ body {
 }
 /* section:contact */
 #contact {
-  padding: #fff;
+  padding: 0 80px;
 }
 #contact h2 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 #contact h3 {
   text-align: center;
   font-size: 2.5rem;
-  margin: 3rem 0;
+  margin: 1rem 0;
   margin-top: 5rem;
 }
 
 #contact .form-box {
   background: #fff;
-  padding: 3rem;
   box-shadow: 2px 2px 5px d1d1d1;
+  padding: 5px 100px;
   border-radius: 10px;
 }
 #contact .form-group {
   margin-bottom: 2rem;
 }
-#contact .form-group label {
+/* #contact .form-group label {
   display: block;
   margin-bottom: 0.5rem;
   width: 80%;
   margin-left: 10%;
   font-size: 1.1rem;
-}
+} */
 
 #contact .form-group input,
 #contact .form-group textarea {
-  width: 80%;
-  margin-left: 10%;
-  font-size: 1.3rem;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 1rem;
   padding: 1rem;
   border: 0.5px solid #333;
   border-radius: 5px;
@@ -302,8 +302,8 @@ body {
 }
 
 #contact .contact-btn {
-  width: 80%;
-  margin-left: 10%;
+  width: 50%;
+  margin-left: 25%;
   display: inline-block;
   padding: 1rem 3rem;
   border: none;
