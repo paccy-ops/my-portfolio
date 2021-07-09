@@ -166,6 +166,12 @@ body {
   border-radius: 100%;
   margin-top: auto;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:#0082e6;
+  font-weight:900;
+}
 
 /* services section */
 #services {
@@ -229,27 +235,29 @@ body {
 
 #testimonials .boxes {
   display: flex;
-  flex-direction: column;
-  margin-left: 7rem;
+  flex-direction: row;
+  margin-left: 20rem;
 }
 
-#testimonials .box {
-  background: rgba(54, 147, 255, 0.7);
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-  border-radius: 15px;
+.wrapper {
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+  grid-gap: 4px;
 }
 
-#testimonials .box:first-child,
+.wrapper .box img {
+  width: 100%;
+  border-radius: 10px
+  }
+  .wrapper .box{
+    padding: 10px;
+  }
+/* #testimonials .box:first-child,
 #testimonials .box:nth-child(2) {
   margin-bottom: 3rem;
-}
+} */
 
-#testimonials .box img {
-  border-radius: 100%;
-  margin-right: 2rem;
-}
+
 #testimonials p {
   color: #fff;
 }
