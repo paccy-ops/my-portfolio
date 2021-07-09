@@ -233,11 +233,7 @@ a {
   color: #fff;
 }
 
-#testimonials .boxes {
-  display: flex;
-  flex-direction: row;
-  margin-left: 20rem;
-}
+
 
 .wrapper {
   display: grid;
@@ -258,9 +254,6 @@ a {
 } */
 
 
-#testimonials p {
-  color: #fff;
-}
 /* section:contact */
 #contact {
   padding: 0 80px;
